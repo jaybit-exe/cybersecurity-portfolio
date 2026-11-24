@@ -8,6 +8,8 @@
 
 ## Executive summary
 
+Guided learning case study: I investigated an unfamiliar Windows permission on my own computer using AI-assisted PowerShell queries. AI helped develop the investigation steps, explain results, and draft this report. This project documents introductory hands-on practice, not an independently conducted incident response.
+
 I investigated an “Account Unknown” entry discovered in the security permissions of a PDF in my Downloads folder. The objective was to identify the associated security principal, determine the scope of its permissions, and assess whether the available evidence established malicious activity.
 
 Using PowerShell and Windows service-management utilities, I attempted to resolve the security identifier (SID), compared it against registered service names, and examined folder access-control rules.
